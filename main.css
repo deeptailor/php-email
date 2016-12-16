@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
-@import url("font-awesome.min.css");
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -1302,8 +1301,7 @@
 /* Basic */
 
 	body {
-		background-color: #183026;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-color: black;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
@@ -1689,7 +1687,7 @@
 		position: relative;
 		display: inline-block;
 		border: 0;
-		background: #35b88f;
+		background: rgba(0,0,0,0.9);
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		cursor: pointer;
@@ -1706,7 +1704,8 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #45c89f;
+			background: white;
+			color: black;
 		}
 
 		input[type="button"].style2,
@@ -1775,7 +1774,6 @@
 			top: -4.5em;
 			margin-left: -45px;
 			margin-top: -33px;
-			background: url("images/arrow.svg") no-repeat;
 		}
 
 		.box :last-child {
@@ -1885,7 +1883,7 @@
 				}
 
 		.box.style3 {
-			background: #fff;
+			background: rgba(255,255,255,0.8);
 			padding: 3em;
 		}
 
@@ -1983,7 +1981,6 @@
 				bottom: -4.5em;
 				margin-left: -45px;
 				margin-bottom: -33px;
-				background: url("images/arrow.svg") no-repeat;
 			}
 
 /* Banner */
@@ -2244,7 +2241,6 @@
 
 			body {
 				background-color: #203936;
-				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;
